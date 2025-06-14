@@ -121,15 +121,22 @@ router.post('/login', async (req, res) => {
     const { email, password } = req.body;
     
     // Log request body for debugging
-    console.log('Login attempt:', { email: email || 'missing', hasPassword: !!password });
+    console.log('Login attempt:', { 
+      email: email || 'missing', 
+      hasPassword: !!password,
+      body: req.body 
+    });
 
     // Validate input
     if (!email || !password) {
       console.log('Missing credentials:', { email: !!email, password: !!password });
-      return res.status(400).json({ message: 'Email and password are required' });
+      return res.status(400).json({ 
+        message: 'Email and password are required',
+        details: { email: !!email, password: !!password }
+      });
     }
 
-    const normalizedEmail = email.toLowerCase();
+    const normalizedEmail = email.toLowerCase().trim();
 
     // Check if user exists
     const user = await User.findOne({ email: normalizedEmail });
@@ -146,10 +153,16 @@ router.post('/login', async (req, res) => {
     }
 
     // Generate token
-    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, {
-      expiresIn: '30d'
-    });
+    const token = jwt.sign(
+      { 
+        id: user._id,
+        isAdmin: user.isAdmin 
+      }, 
+      process.env.JWT_SECRET,
+      { expiresIn: '30d' }
+    );
 
+    // Send response
     res.json({
       token,
       user: {
@@ -163,7 +176,10 @@ router.post('/login', async (req, res) => {
     });
   } catch (error) {
     console.error('Login error:', error);
-    res.status(500).json({ message: 'Server error', details: error.message });
+    res.status(500).json({ 
+      message: 'Server error', 
+      details: process.env.NODE_ENV === 'development' ? error.message : undefined 
+    });
   }
 });
 
