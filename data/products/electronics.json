@@ -1,0 +1,195 @@
+{
+  "category": "Electronics",
+  "products": [
+    {
+      "name": "Premium Wireless Headphones",
+      "price": 199.99,
+      "originalPrice": 249.99,
+      "description": "High-quality wireless headphones with noise cancellation and premium sound quality.",
+      "image": "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "Active Noise Cancellation",
+        "40-hour battery life",
+        "Premium sound quality",
+        "Bluetooth 5.0",
+        "Comfortable fit"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "4K Smart TV",
+      "price": 799.99,
+      "originalPrice": 899.99,
+      "description": "55-inch 4K Smart TV with HDR and built-in streaming apps.",
+      "image": "https://images.pexels.com/photos/6976094/pexels-photo-6976094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "4K Resolution",
+        "HDR Support",
+        "Smart TV features",
+        "Multiple HDMI ports",
+        "Voice control"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Smart Home Security Camera",
+      "price": 129.99,
+      "originalPrice": 159.99,
+      "description": "HD security camera with night vision and two-way audio for home monitoring.",
+      "image": "https://images.pexels.com/photos/3205735/pexels-photo-3205735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "1080p HD Video",
+        "Night Vision",
+        "Two-way Audio",
+        "Motion Detection",
+        "Cloud Storage"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Wireless Soundbar",
+      "price": 299.99,
+      "originalPrice": 349.99,
+      "description": "Premium soundbar with wireless subwoofer for immersive home theater experience.",
+      "image": "https://images.pexels.com/photos/1040160/pexels-photo-1040160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "Dolby Atmos",
+        "Wireless Subwoofer",
+        "Bluetooth Connectivity",
+        "Wall-mountable",
+        "Voice Assistant Compatible"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Smart Robot Vacuum",
+      "price": 349.99,
+      "originalPrice": 399.99,
+      "description": "Intelligent robot vacuum with mapping technology and automatic charging.",
+      "image": "https://images.pexels.com/photos/4087992/pexels-photo-4087992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "Smart Mapping",
+        "Auto Charging",
+        "App Control",
+        "HEPA Filter",
+        "Multi-surface Cleaning"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Portable Bluetooth Speaker",
+      "price": 89.99,
+      "originalPrice": 109.99,
+      "description": "Waterproof portable speaker with 360-degree sound and long battery life.",
+      "image": "https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "Waterproof",
+        "20-hour Battery",
+        "360° Sound",
+        "Built-in Microphone",
+        "Party Mode"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Smart Thermostat",
+      "price": 179.99,
+      "originalPrice": 199.99,
+      "description": "Energy-saving smart thermostat with learning capabilities and remote control.",
+      "image": "https://images.pexels.com/photos/3689532/pexels-photo-3689532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "Learning Algorithm",
+        "Energy Savings",
+        "Remote Control",
+        "Schedule Setting",
+        "Weather Integration"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Wireless Charging Pad",
+      "price": 39.99,
+      "originalPrice": 49.99,
+      "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+      "image": "https://images.pexels.com/photos/4526407/pexels-photo-4526407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "15W Fast Charging",
+        "Multi-device Support",
+        "LED Indicator",
+        "Compact Design",
+        "Safety Protection"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Smart Video Doorbell",
+      "price": 149.99,
+      "originalPrice": 179.99,
+      "description": "HD video doorbell with motion detection and two-way audio.",
+      "image": "https://images.pexels.com/photos/279810/pexels-photo-279810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "1080p HD Video",
+        "Motion Alerts",
+        "Two-way Audio",
+        "Night Vision",
+        "Weather Resistant"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Smart Light Bulb Set",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "description": "Set of 4 smart LED bulbs with millions of colors and voice control.",
+      "image": "https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "16 Million Colors",
+        "Voice Control",
+        "Schedule Setting",
+        "Energy Efficient",
+        "Group Control"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    }
+  ]
+} 

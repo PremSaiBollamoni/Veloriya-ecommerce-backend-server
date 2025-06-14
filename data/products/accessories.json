@@ -1,0 +1,195 @@
+{
+  "category": "Accessories",
+  "products": [
+    {
+      "name": "Mechanical Keyboard",
+      "price": 129.99,
+      "originalPrice": 149.99,
+      "description": "Premium mechanical keyboard with RGB lighting and customizable switches.",
+      "image": "https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "Mechanical switches",
+        "RGB lighting",
+        "Aluminum frame",
+        "Programmable keys",
+        "Detachable cable"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Wireless Mouse",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "description": "High-precision wireless gaming mouse with customizable buttons.",
+      "image": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "16000 DPI sensor",
+        "Wireless connectivity",
+        "RGB lighting",
+        "8 programmable buttons",
+        "Long battery life"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Dual Monitor Stand",
+      "price": 89.99,
+      "originalPrice": 109.99,
+      "description": "Adjustable dual monitor stand with cable management system.",
+      "image": "https://images.pexels.com/photos/1957477/pexels-photo-1957477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "Dual Monitor Support",
+        "Height Adjustable",
+        "Cable Management",
+        "360° Rotation",
+        "Tool-free Assembly"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Premium Gaming Headset",
+      "price": 149.99,
+      "originalPrice": 179.99,
+      "description": "High-quality gaming headset with surround sound and noise-canceling microphone.",
+      "image": "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "7.1 Surround Sound",
+        "Noise-canceling Mic",
+        "Memory Foam Cushions",
+        "RGB Lighting",
+        "Cross-platform Compatible"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "USB-C Hub",
+      "price": 49.99,
+      "originalPrice": 59.99,
+      "description": "Multi-port USB-C hub with power delivery and 4K video output.",
+      "image": "https://images.pexels.com/photos/4219862/pexels-photo-4219862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "4K HDMI Output",
+        "USB 3.0 Ports",
+        "Power Delivery",
+        "SD Card Reader",
+        "Ethernet Port"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Gaming Mouse Pad",
+      "price": 29.99,
+      "originalPrice": 39.99,
+      "description": "Extended RGB gaming mouse pad with smooth surface and non-slip base.",
+      "image": "https://images.pexels.com/photos/7915257/pexels-photo-7915257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "RGB Lighting",
+        "Extended Size",
+        "Non-slip Base",
+        "Water Resistant",
+        "Stitched Edges"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Webcam Pro",
+      "price": 99.99,
+      "originalPrice": 119.99,
+      "description": "1080p webcam with autofocus and low-light correction.",
+      "image": "https://images.pexels.com/photos/3205735/pexels-photo-3205735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "1080p Resolution",
+        "Autofocus",
+        "Low-light Correction",
+        "Dual Microphones",
+        "Privacy Cover"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Laptop Stand",
+      "price": 39.99,
+      "originalPrice": 49.99,
+      "description": "Adjustable aluminum laptop stand with cooling ventilation.",
+      "image": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "Adjustable Height",
+        "Cooling Design",
+        "Aluminum Build",
+        "Non-slip Pads",
+        "Portable"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "External SSD",
+      "price": 119.99,
+      "originalPrice": 139.99,
+      "description": "1TB portable SSD with fast data transfer speeds.",
+      "image": "https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "1TB Storage",
+        "USB 3.2",
+        "Shock Resistant",
+        "Compact Design",
+        "Fast Transfer Speed"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Cable Management Kit",
+      "price": 24.99,
+      "originalPrice": 29.99,
+      "description": "Complete cable management solution for desk setup.",
+      "image": "https://images.pexels.com/photos/4219862/pexels-photo-4219862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "Cable Sleeves",
+        "Cable Clips",
+        "Zip Ties",
+        "Cable Labels",
+        "Adhesive Mounts"
+      ],
+      "rating": 4.2,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    }
+  ]
+} 

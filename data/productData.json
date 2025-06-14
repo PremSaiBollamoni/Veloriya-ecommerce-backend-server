@@ -1,0 +1,156 @@
+{
+  "products": [
+    {
+      "name": "Premium Wireless Headphones",
+      "price": 199.99,
+      "originalPrice": 249.99,
+      "description": "High-quality wireless headphones with noise cancellation and premium sound quality.",
+      "image": "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "Active Noise Cancellation",
+        "40-hour battery life",
+        "Premium sound quality",
+        "Bluetooth 5.0",
+        "Comfortable fit"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Smart Fitness Watch",
+      "price": 149.99,
+      "originalPrice": 179.99,
+      "description": "Advanced fitness tracker with heart rate monitoring and GPS.",
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Wearables",
+      "features": [
+        "Heart rate monitoring",
+        "GPS tracking",
+        "Water resistant",
+        "Sleep tracking",
+        "7-day battery life"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Professional Camera",
+      "price": 899.99,
+      "originalPrice": 999.99,
+      "description": "Professional-grade digital camera with advanced features for photography enthusiasts.",
+      "image": "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Photography",
+      "features": [
+        "24.2MP sensor",
+        "4K video recording",
+        "Dual card slots",
+        "Weather-sealed body",
+        "Advanced autofocus"
+      ],
+      "rating": 4.9,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Gaming Laptop",
+      "price": 1299.99,
+      "originalPrice": 1499.99,
+      "description": "High-performance gaming laptop with RTX graphics and fast refresh rate display.",
+      "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Computers",
+      "features": [
+        "NVIDIA RTX Graphics",
+        "16GB RAM",
+        "1TB SSD",
+        "144Hz Display",
+        "RGB Keyboard"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Wireless Earbuds",
+      "price": 129.99,
+      "originalPrice": 159.99,
+      "description": "True wireless earbuds with premium sound quality and long battery life.",
+      "image": "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "Active noise cancellation",
+        "24-hour battery life",
+        "Water resistant",
+        "Touch controls",
+        "Wireless charging"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "4K Smart TV",
+      "price": 799.99,
+      "originalPrice": 899.99,
+      "description": "55-inch 4K Smart TV with HDR and built-in streaming apps.",
+      "image": "https://images.pexels.com/photos/6976094/pexels-photo-6976094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Electronics",
+      "features": [
+        "4K Resolution",
+        "HDR Support",
+        "Smart TV features",
+        "Multiple HDMI ports",
+        "Voice control"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Mechanical Keyboard",
+      "price": 129.99,
+      "originalPrice": 149.99,
+      "description": "Premium mechanical keyboard with RGB lighting and customizable switches.",
+      "image": "https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "Mechanical switches",
+        "RGB lighting",
+        "Aluminum frame",
+        "Programmable keys",
+        "Detachable cable"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Wireless Mouse",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "description": "High-precision wireless gaming mouse with customizable buttons.",
+      "image": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Accessories",
+      "features": [
+        "16000 DPI sensor",
+        "Wireless connectivity",
+        "RGB lighting",
+        "8 programmable buttons",
+        "Long battery life"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    }
+  ]
+} 

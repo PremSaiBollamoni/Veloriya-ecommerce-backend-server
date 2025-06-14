@@ -1,0 +1,195 @@
+{
+  "category": "Photography",
+  "products": [
+    {
+      "name": "Professional Camera",
+      "price": 899.99,
+      "originalPrice": 999.99,
+      "description": "Professional-grade digital camera with advanced features for photography enthusiasts.",
+      "image": "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Photography",
+      "features": [
+        "24.2MP sensor",
+        "4K video recording",
+        "Dual card slots",
+        "Weather-sealed body",
+        "Advanced autofocus"
+      ],
+      "rating": 4.9,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Mirrorless Camera",
+      "price": 1299.99,
+      "originalPrice": 1499.99,
+      "description": "Compact mirrorless camera with full-frame sensor and advanced features.",
+      "image": "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Photography",
+      "features": [
+        "Full-frame Sensor",
+        "In-body Stabilization",
+        "Eye AF",
+        "4K/60p Video",
+        "Weather Sealed"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Professional Lens",
+      "price": 799.99,
+      "originalPrice": 899.99,
+      "description": "Professional-grade zoom lens with constant f/2.8 aperture.",
+      "image": "https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Photography",
+      "features": [
+        "24-70mm Range",
+        "f/2.8 Aperture",
+        "Weather Sealing",
+        "Image Stabilization",
+        "Fast Autofocus"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Camera Tripod",
+      "price": 199.99,
+      "originalPrice": 249.99,
+      "description": "Professional carbon fiber tripod with ball head.",
+      "image": "https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Photography",
+      "features": [
+        "Carbon Fiber",
+        "Ball Head",
+        "Quick Release",
+        "Lightweight",
+        "Portable"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Camera Flash",
+      "price": 299.99,
+      "originalPrice": 349.99,
+      "description": "Professional speedlight flash with wireless control.",
+      "image": "https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Photography",
+      "features": [
+        "Wireless Control",
+        "TTL Metering",
+        "High Speed Sync",
+        "LCD Display",
+        "Bounce Head"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Camera Backpack",
+      "price": 149.99,
+      "originalPrice": 179.99,
+      "description": "Professional camera backpack with laptop compartment.",
+      "image": "https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Photography",
+      "features": [
+        "Weather Resistant",
+        "Laptop Compartment",
+        "Customizable Dividers",
+        "Tripod Holder",
+        "Comfortable Straps"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Memory Card Set",
+      "price": 99.99,
+      "originalPrice": 119.99,
+      "description": "Professional SD card set with high write speeds.",
+      "image": "https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Photography",
+      "features": [
+        "128GB Capacity",
+        "UHS-II Speed",
+        "Weather Resistant",
+        "Write Protection",
+        "Case Included"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Studio Lighting Kit",
+      "price": 399.99,
+      "originalPrice": 449.99,
+      "description": "Complete studio lighting kit with softboxes and stands.",
+      "image": "https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Photography",
+      "features": [
+        "2 Softboxes",
+        "LED Lights",
+        "Light Stands",
+        "Carrying Case",
+        "Remote Control"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Camera Gimbal",
+      "price": 349.99,
+      "originalPrice": 399.99,
+      "description": "3-axis camera gimbal for smooth video recording.",
+      "image": "https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Photography",
+      "features": [
+        "3-axis Stabilization",
+        "Wireless Control",
+        "Follow Focus",
+        "Time-lapse",
+        "Long Battery Life"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Filter Kit",
+      "price": 129.99,
+      "originalPrice": 149.99,
+      "description": "Professional filter kit with case.",
+      "image": "https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Photography",
+      "features": [
+        "ND Filters",
+        "Polarizing Filter",
+        "UV Filter",
+        "Filter Case",
+        "Cleaning Kit"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    }
+  ]
+} 

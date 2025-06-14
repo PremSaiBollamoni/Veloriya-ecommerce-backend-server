@@ -1,0 +1,195 @@
+{
+  "category": "Beauty & Personal Care",
+  "products": [
+    {
+      "name": "Premium Hair Dryer",
+      "price": 199.99,
+      "originalPrice": 249.99,
+      "description": "Professional-grade hair dryer with ionic technology and multiple settings.",
+      "image": "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Beauty & Personal Care",
+      "features": [
+        "Ionic Technology",
+        "Multiple Heat Settings",
+        "Cool Shot Button",
+        "Concentrator Nozzle",
+        "Professional Motor"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Electric Toothbrush",
+      "price": 129.99,
+      "originalPrice": 159.99,
+      "description": "Smart electric toothbrush with pressure sensor and multiple cleaning modes.",
+      "image": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Beauty & Personal Care",
+      "features": [
+        "Pressure Sensor",
+        "Multiple Modes",
+        "Timer Function",
+        "Long Battery Life",
+        "Travel Case"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Facial Cleansing Brush",
+      "price": 89.99,
+      "originalPrice": 109.99,
+      "description": "Electric facial cleansing brush with soft bristles and waterproof design.",
+      "image": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Beauty & Personal Care",
+      "features": [
+        "Soft Bristles",
+        "Waterproof",
+        "Multiple Speeds",
+        "Timer Function",
+        "Rechargeable"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Hair Straightener",
+      "price": 149.99,
+      "originalPrice": 179.99,
+      "description": "Professional hair straightener with ceramic plates and digital temperature control.",
+      "image": "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Beauty & Personal Care",
+      "features": [
+        "Ceramic Plates",
+        "Digital Control",
+        "Multiple Settings",
+        "Auto Shutoff",
+        "Dual Voltage"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Electric Shaver",
+      "price": 179.99,
+      "originalPrice": 219.99,
+      "description": "Advanced electric shaver with wet/dry functionality and precision trimmer.",
+      "image": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Beauty & Personal Care",
+      "features": [
+        "Wet/Dry Use",
+        "Precision Trimmer",
+        "LED Display",
+        "Quick Charge",
+        "Travel Lock"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Skincare Set",
+      "price": 99.99,
+      "originalPrice": 129.99,
+      "description": "Complete skincare set with cleanser, toner, and moisturizer.",
+      "image": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Beauty & Personal Care",
+      "features": [
+        "Natural Ingredients",
+        "Dermatologist Tested",
+        "For All Skin Types",
+        "Travel Sizes",
+        "Gift Box"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Makeup Mirror",
+      "price": 69.99,
+      "originalPrice": 89.99,
+      "description": "LED makeup mirror with magnification and adjustable lighting.",
+      "image": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Beauty & Personal Care",
+      "features": [
+        "LED Lighting",
+        "3x Magnification",
+        "Adjustable Stand",
+        "USB Powered",
+        "Touch Control"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Nail Care Kit",
+      "price": 49.99,
+      "originalPrice": 69.99,
+      "description": "Professional nail care kit with tools and UV lamp.",
+      "image": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Beauty & Personal Care",
+      "features": [
+        "UV Lamp",
+        "Professional Tools",
+        "Storage Case",
+        "Instruction Guide",
+        "Multiple Attachments"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Hair Care Set",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "description": "Premium hair care set with shampoo, conditioner, and treatment mask.",
+      "image": "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Beauty & Personal Care",
+      "features": [
+        "Natural Ingredients",
+        "Sulfate Free",
+        "For All Hair Types",
+        "Travel Sizes",
+        "Gift Box"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Massage Device",
+      "price": 159.99,
+      "originalPrice": 199.99,
+      "description": "Handheld massage device with multiple attachments and speeds.",
+      "image": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Beauty & Personal Care",
+      "features": [
+        "Multiple Speeds",
+        "Attachments",
+        "Long Battery Life",
+        "Quiet Operation",
+        "Travel Case"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    }
+  ]
+} 

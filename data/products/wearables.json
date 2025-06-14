@@ -1,0 +1,195 @@
+{
+  "category": "Wearables",
+  "products": [
+    {
+      "name": "Smart Fitness Watch",
+      "price": 149.99,
+      "originalPrice": 179.99,
+      "description": "Advanced fitness tracker with heart rate monitoring and GPS.",
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Wearables",
+      "features": [
+        "Heart rate monitoring",
+        "GPS tracking",
+        "Water resistant",
+        "Sleep tracking",
+        "7-day battery life"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Smart Ring",
+      "price": 299.99,
+      "originalPrice": 349.99,
+      "description": "Smart ring with health monitoring and NFC payments.",
+      "image": "https://images.pexels.com/photos/9511606/pexels-photo-9511606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Wearables",
+      "features": [
+        "Heart Rate Monitor",
+        "Sleep Tracking",
+        "NFC Payments",
+        "Water Resistant",
+        "3-day Battery"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Smart Glasses",
+      "price": 399.99,
+      "originalPrice": 449.99,
+      "description": "AR-enabled smart glasses with voice control.",
+      "image": "https://images.pexels.com/photos/701877/pexels-photo-701877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Wearables",
+      "features": [
+        "AR Display",
+        "Voice Control",
+        "Touch Controls",
+        "Bluetooth Audio",
+        "UV Protection"
+      ],
+      "rating": 4.2,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Health Monitor Band",
+      "price": 199.99,
+      "originalPrice": 229.99,
+      "description": "Advanced health monitoring band with ECG and blood oxygen monitoring.",
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Wearables",
+      "features": [
+        "ECG Monitor",
+        "Blood Oxygen",
+        "Stress Tracking",
+        "24/7 Heart Rate",
+        "14-day Battery"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Smart Running Watch",
+      "price": 249.99,
+      "originalPrice": 299.99,
+      "description": "GPS running watch with advanced training features.",
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Wearables",
+      "features": [
+        "Advanced GPS",
+        "Training Plans",
+        "Recovery Time",
+        "Music Storage",
+        "20-hour GPS Battery"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Smart Jewelry",
+      "price": 179.99,
+      "originalPrice": 199.99,
+      "description": "Fashionable smart jewelry with notifications and activity tracking.",
+      "image": "https://images.pexels.com/photos/9511606/pexels-photo-9511606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Wearables",
+      "features": [
+        "Notifications",
+        "Activity Tracking",
+        "Customizable Alerts",
+        "Water Resistant",
+        "5-day Battery"
+      ],
+      "rating": 4.1,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Sport Smart Watch",
+      "price": 199.99,
+      "originalPrice": 229.99,
+      "description": "Rugged sports smartwatch with multi-sport tracking.",
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Wearables",
+      "features": [
+        "Multi-sport Modes",
+        "Shock Resistant",
+        "Swimming Tracking",
+        "Altimeter",
+        "10-day Battery"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Sleep Tracking Ring",
+      "price": 279.99,
+      "originalPrice": 319.99,
+      "description": "Smart ring focused on sleep and recovery tracking.",
+      "image": "https://images.pexels.com/photos/9511606/pexels-photo-9511606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Wearables",
+      "features": [
+        "Sleep Analysis",
+        "Recovery Metrics",
+        "Temperature",
+        "Heart Rate",
+        "7-day Battery"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Kids Smart Watch",
+      "price": 129.99,
+      "originalPrice": 149.99,
+      "description": "Kid-friendly smartwatch with GPS tracking and parental controls.",
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Wearables",
+      "features": [
+        "GPS Tracking",
+        "SOS Button",
+        "Parent App",
+        "Games",
+        "2-day Battery"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Smart Earrings",
+      "price": 159.99,
+      "originalPrice": 179.99,
+      "description": "Smart earrings with health monitoring and notifications.",
+      "image": "https://images.pexels.com/photos/9511606/pexels-photo-9511606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Wearables",
+      "features": [
+        "Heart Rate",
+        "Notifications",
+        "Touch Controls",
+        "Water Resistant",
+        "4-day Battery"
+      ],
+      "rating": 4.0,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    }
+  ]
+} 

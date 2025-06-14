@@ -1,0 +1,195 @@
+{
+  "category": "Computers",
+  "products": [
+    {
+      "name": "Gaming Laptop",
+      "price": 1299.99,
+      "originalPrice": 1499.99,
+      "description": "High-performance gaming laptop with RTX graphics and fast refresh rate display.",
+      "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Computers",
+      "features": [
+        "NVIDIA RTX Graphics",
+        "16GB RAM",
+        "1TB SSD",
+        "144Hz Display",
+        "RGB Keyboard"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Professional Workstation",
+      "price": 1899.99,
+      "originalPrice": 2099.99,
+      "description": "High-end workstation for professional content creation and 3D rendering.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Computers",
+      "features": [
+        "AMD Ryzen 9 CPU",
+        "32GB RAM",
+        "2TB NVMe SSD",
+        "Professional Graphics",
+        "Liquid Cooling"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Ultrabook Laptop",
+      "price": 999.99,
+      "originalPrice": 1199.99,
+      "description": "Thin and light laptop with long battery life for productivity on the go.",
+      "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Computers",
+      "features": [
+        "Intel Core i7",
+        "8GB RAM",
+        "512GB SSD",
+        "14-inch 4K Display",
+        "12-hour Battery"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Mini PC",
+      "price": 599.99,
+      "originalPrice": 699.99,
+      "description": "Compact desktop PC perfect for home office and media center use.",
+      "image": "https://images.pexels.com/photos/1432675/pexels-photo-1432675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Computers",
+      "features": [
+        "Intel Core i5",
+        "16GB RAM",
+        "256GB SSD",
+        "Wi-Fi 6",
+        "Compact Design"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "All-in-One Desktop",
+      "price": 1199.99,
+      "originalPrice": 1399.99,
+      "description": "Sleek all-in-one desktop computer with touchscreen display.",
+      "image": "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Computers",
+      "features": [
+        "27-inch 4K Display",
+        "Touch Screen",
+        "16GB RAM",
+        "1TB SSD",
+        "Wireless Keyboard & Mouse"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Budget Gaming PC",
+      "price": 799.99,
+      "originalPrice": 899.99,
+      "description": "Entry-level gaming PC with upgrade potential.",
+      "image": "https://images.pexels.com/photos/1038916/pexels-photo-1038916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Computers",
+      "features": [
+        "GTX 1660 Super",
+        "8GB RAM",
+        "500GB SSD",
+        "RGB Case",
+        "Gaming Peripherals"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Student Laptop",
+      "price": 649.99,
+      "originalPrice": 749.99,
+      "description": "Affordable laptop perfect for students and everyday computing.",
+      "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Computers",
+      "features": [
+        "AMD Ryzen 5",
+        "8GB RAM",
+        "256GB SSD",
+        "15.6-inch Display",
+        "Windows 11"
+      ],
+      "rating": 4.2,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Creator Laptop",
+      "price": 1599.99,
+      "originalPrice": 1799.99,
+      "description": "Powerful laptop designed for creative professionals.",
+      "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Computers",
+      "features": [
+        "4K OLED Display",
+        "32GB RAM",
+        "1TB NVMe SSD",
+        "NVIDIA RTX GPU",
+        "Color Calibrated"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Home Office PC",
+      "price": 699.99,
+      "originalPrice": 799.99,
+      "description": "Reliable desktop PC for home office and productivity tasks.",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Computers",
+      "features": [
+        "Intel Core i5",
+        "16GB RAM",
+        "512GB SSD",
+        "Dual Monitor Support",
+        "Business Software"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Chromebook",
+      "price": 299.99,
+      "originalPrice": 349.99,
+      "description": "Lightweight Chromebook for web-based computing and education.",
+      "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Computers",
+      "features": [
+        "Chrome OS",
+        "4GB RAM",
+        "64GB Storage",
+        "12-hour Battery",
+        "Touch Screen"
+      ],
+      "rating": 4.1,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    }
+  ]
+} 

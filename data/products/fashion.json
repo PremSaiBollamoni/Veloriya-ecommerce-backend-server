@@ -1,0 +1,195 @@
+{
+  "category": "Fashion",
+  "products": [
+    {
+      "name": "Designer Leather Handbag",
+      "price": 299.99,
+      "originalPrice": 349.99,
+      "description": "Luxury leather handbag with premium craftsmanship and elegant design.",
+      "image": "https://images.pexels.com/photos/904350/pexels-photo-904350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Fashion",
+      "features": [
+        "Genuine Leather",
+        "Multiple Compartments",
+        "Adjustable Strap",
+        "Gold Hardware",
+        "Interior Pockets"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Classic Aviator Sunglasses",
+      "price": 129.99,
+      "originalPrice": 159.99,
+      "description": "Timeless aviator sunglasses with UV protection and polarized lenses.",
+      "image": "https://images.pexels.com/photos/701877/pexels-photo-701877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Fashion",
+      "features": [
+        "Polarized Lenses",
+        "UV Protection",
+        "Metal Frame",
+        "Adjustable Nose Pads",
+        "Case Included"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Premium Leather Wallet",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "description": "Handcrafted leather wallet with RFID protection and multiple card slots.",
+      "image": "https://images.pexels.com/photos/2079246/pexels-photo-2079246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Fashion",
+      "features": [
+        "Genuine Leather",
+        "RFID Protection",
+        "Multiple Card Slots",
+        "Bill Compartment",
+        "Coin Pocket"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Luxury Watch",
+      "price": 499.99,
+      "originalPrice": 599.99,
+      "description": "Elegant automatic watch with sapphire crystal and stainless steel bracelet.",
+      "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Fashion",
+      "features": [
+        "Automatic Movement",
+        "Sapphire Crystal",
+        "Stainless Steel",
+        "Water Resistant",
+        "Date Display"
+      ],
+      "rating": 4.9,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Designer Belt",
+      "price": 89.99,
+      "originalPrice": 109.99,
+      "description": "Premium leather belt with designer buckle and classic design.",
+      "image": "https://images.pexels.com/photos/8285167/pexels-photo-8285167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Fashion",
+      "features": [
+        "Genuine Leather",
+        "Designer Buckle",
+        "Adjustable Size",
+        "Gift Box",
+        "Classic Design"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Silk Scarf",
+      "price": 59.99,
+      "originalPrice": 79.99,
+      "description": "Luxurious silk scarf with elegant pattern and versatile styling options.",
+      "image": "https://images.pexels.com/photos/6626903/pexels-photo-6626903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Fashion",
+      "features": [
+        "100% Silk",
+        "Elegant Pattern",
+        "Versatile Style",
+        "Gift Box",
+        "Hand Finished"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Designer Backpack",
+      "price": 199.99,
+      "originalPrice": 249.99,
+      "description": "Stylish and functional backpack with laptop compartment and premium materials.",
+      "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Fashion",
+      "features": [
+        "Premium Material",
+        "Laptop Compartment",
+        "Water Resistant",
+        "Multiple Pockets",
+        "Padded Straps"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Travel Duffel Bag",
+      "price": 149.99,
+      "originalPrice": 179.99,
+      "description": "Spacious duffel bag with premium materials and smart organization.",
+      "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Fashion",
+      "features": [
+        "Premium Canvas",
+        "Leather Trim",
+        "Shoe Compartment",
+        "Shoulder Strap",
+        "Water Resistant"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Designer Umbrella",
+      "price": 49.99,
+      "originalPrice": 69.99,
+      "description": "Premium automatic umbrella with windproof design and elegant pattern.",
+      "image": "https://images.pexels.com/photos/12628400/pexels-photo-12628400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Fashion",
+      "features": [
+        "Automatic Open",
+        "Windproof Design",
+        "UV Protection",
+        "Elegant Pattern",
+        "Travel Case"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Leather Gloves",
+      "price": 69.99,
+      "originalPrice": 89.99,
+      "description": "Premium leather gloves with cashmere lining and touchscreen compatibility.",
+      "image": "https://images.pexels.com/photos/6626903/pexels-photo-6626903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Fashion",
+      "features": [
+        "Genuine Leather",
+        "Cashmere Lining",
+        "Touchscreen Compatible",
+        "Gift Box",
+        "Multiple Sizes"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    }
+  ]
+} 

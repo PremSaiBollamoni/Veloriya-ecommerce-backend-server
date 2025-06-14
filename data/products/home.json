@@ -1,0 +1,195 @@
+{
+  "category": "Home & Living",
+  "products": [
+    {
+      "name": "Smart LED Ceiling Light",
+      "price": 129.99,
+      "originalPrice": 159.99,
+      "description": "Smart LED ceiling light with adjustable color temperature and app control.",
+      "image": "https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Home & Living",
+      "features": [
+        "App Control",
+        "Color Temperature",
+        "Voice Compatible",
+        "Timer Function",
+        "Energy Efficient"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Premium Coffee Maker",
+      "price": 199.99,
+      "originalPrice": 249.99,
+      "description": "Advanced coffee maker with programmable settings and thermal carafe.",
+      "image": "https://images.pexels.com/photos/2147834/pexels-photo-2147834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Home & Living",
+      "features": [
+        "Programmable",
+        "Thermal Carafe",
+        "Auto Shutoff",
+        "Built-in Grinder",
+        "Water Filter"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Air Purifier",
+      "price": 249.99,
+      "originalPrice": 299.99,
+      "description": "HEPA air purifier with smart sensors and quiet operation.",
+      "image": "https://images.pexels.com/photos/4087992/pexels-photo-4087992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Home & Living",
+      "features": [
+        "HEPA Filter",
+        "Air Quality Sensor",
+        "Quiet Operation",
+        "Timer Settings",
+        "Filter Indicator"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Robot Vacuum Cleaner",
+      "price": 299.99,
+      "originalPrice": 349.99,
+      "description": "Smart robot vacuum with mapping technology and app control.",
+      "image": "https://images.pexels.com/photos/4087992/pexels-photo-4087992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Home & Living",
+      "features": [
+        "Smart Mapping",
+        "App Control",
+        "Auto Charging",
+        "HEPA Filter",
+        "Schedule Cleaning"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Premium Bedding Set",
+      "price": 149.99,
+      "originalPrice": 179.99,
+      "description": "Luxury cotton bedding set with duvet cover and pillowcases.",
+      "image": "https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Home & Living",
+      "features": [
+        "100% Cotton",
+        "High Thread Count",
+        "Hypoallergenic",
+        "Easy Care",
+        "Multiple Sizes"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Smart Thermostat",
+      "price": 179.99,
+      "originalPrice": 199.99,
+      "description": "Energy-saving smart thermostat with learning capabilities.",
+      "image": "https://images.pexels.com/photos/3689532/pexels-photo-3689532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Home & Living",
+      "features": [
+        "Learning Algorithm",
+        "Energy Savings",
+        "Remote Control",
+        "Schedule Setting",
+        "Weather Integration"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Kitchen Mixer",
+      "price": 349.99,
+      "originalPrice": 399.99,
+      "description": "Professional stand mixer with multiple attachments and powerful motor.",
+      "image": "https://images.pexels.com/photos/4087992/pexels-photo-4087992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Home & Living",
+      "features": [
+        "Powerful Motor",
+        "Multiple Speeds",
+        "Bowl Lift Design",
+        "Multiple Attachments",
+        "Splash Guard"
+      ],
+      "rating": 4.9,
+      "reviews": [],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "name": "Smart Door Lock",
+      "price": 199.99,
+      "originalPrice": 249.99,
+      "description": "Smart door lock with fingerprint and code access.",
+      "image": "https://images.pexels.com/photos/279810/pexels-photo-279810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Home & Living",
+      "features": [
+        "Fingerprint Access",
+        "Code Entry",
+        "App Control",
+        "Guest Access",
+        "Battery Backup"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Water Filter System",
+      "price": 129.99,
+      "originalPrice": 159.99,
+      "description": "Advanced water filtration system for clean drinking water.",
+      "image": "https://images.pexels.com/photos/4087992/pexels-photo-4087992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Home & Living",
+      "features": [
+        "Multi-stage Filtration",
+        "Easy Installation",
+        "Filter Indicator",
+        "Large Capacity",
+        "NSF Certified"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "name": "Storage Ottoman",
+      "price": 89.99,
+      "originalPrice": 109.99,
+      "description": "Multifunctional storage ottoman with premium upholstery.",
+      "image": "https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Home & Living",
+      "features": [
+        "Storage Space",
+        "Premium Fabric",
+        "Sturdy Design",
+        "Easy Assembly",
+        "Multiple Colors"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "inStock": true,
+      "featured": false
+    }
+  ]
+} 
