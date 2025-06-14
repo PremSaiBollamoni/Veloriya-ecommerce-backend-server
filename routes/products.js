@@ -7,40 +7,59 @@ const auth = require('../middleware/auth');
 // Get product categories
 router.get('/categories', async (req, res) => {
   try {
+    console.log('Fetching categories...');
     const categories = await Category.find().sort('name');
+    console.log(`Found ${categories.length} categories`);
     res.json(categories);
   } catch (error) {
-    res.status(500).json({ message: 'Error fetching categories' });
+    console.error('Error fetching categories:', error);
+    res.status(500).json({ 
+      message: 'Error fetching categories',
+      error: process.env.NODE_ENV === 'development' ? error.message : undefined
+    });
   }
 });
 
 // Get all products
 router.get('/', async (req, res) => {
   try {
+    console.log('Fetching products with query:', req.query);
     const { category, featured, search } = req.query;
     let query = {};
 
     if (category) {
+      console.log('Filtering by category:', category);
       const categoryDoc = await Category.findOne({ name: category });
       if (categoryDoc) {
         query.category = categoryDoc._id;
+      } else {
+        console.log('Category not found:', category);
       }
     }
 
     if (featured) {
+      console.log('Filtering featured products:', featured);
       query.featured = featured === 'true';
     }
 
     if (search) {
+      console.log('Searching for products:', search);
       query.name = { $regex: search, $options: 'i' };
     }
 
+    console.log('Final query:', query);
     const products = await Product.find(query)
       .populate('category')
       .sort({ createdAt: -1 });
+    
+    console.log(`Found ${products.length} products`);
     res.json(products);
   } catch (error) {
-    res.status(500).json({ message: 'Error fetching products' });
+    console.error('Error fetching products:', error);
+    res.status(500).json({ 
+      message: 'Error fetching products',
+      error: process.env.NODE_ENV === 'development' ? error.message : undefined
+    });
   }
 });
 
