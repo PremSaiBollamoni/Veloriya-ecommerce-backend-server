@@ -76,7 +76,14 @@ router.post('/admin/login', async (req, res) => {
 router.post('/register', async (req, res) => {
   try {
     const { name, email, password } = req.body;
-    const normalizedEmail = email.toLowerCase();
+    
+    // Validate email format
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailRegex.test(email)) {
+      return res.status(400).json({ message: 'Invalid email format' });
+    }
+
+    const normalizedEmail = email.toLowerCase().trim();
 
     // Check if user already exists
     let user = await User.findOne({ email: normalizedEmail });
@@ -111,6 +118,7 @@ router.post('/register', async (req, res) => {
       }
     });
   } catch (error) {
+    console.error('Registration error:', error);
     res.status(500).json({ message: 'Server error' });
   }
 });
