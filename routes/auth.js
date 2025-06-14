@@ -77,17 +77,42 @@ router.post('/register', async (req, res) => {
   try {
     const { name, email, password } = req.body;
     
+    console.log('Registration attempt:', {
+      name: name || 'missing',
+      email: email || 'missing',
+      hasPassword: !!password,
+      body: req.body
+    });
+
+    // Validate required fields
+    if (!name || !email || !password) {
+      console.log('Missing required fields:', {
+        name: !!name,
+        email: !!email,
+        password: !!password
+      });
+      return res.status(400).json({ message: 'All fields are required' });
+    }
+
     // Validate email format
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    console.log('Validating email:', {
+      email,
+      isValid: emailRegex.test(email)
+    });
+    
     if (!emailRegex.test(email)) {
+      console.log('Invalid email format:', email);
       return res.status(400).json({ message: 'Invalid email format' });
     }
 
     const normalizedEmail = email.toLowerCase().trim();
+    console.log('Normalized email:', normalizedEmail);
 
     // Check if user already exists
     let user = await User.findOne({ email: normalizedEmail });
     if (user) {
+      console.log('User already exists:', normalizedEmail);
       return res.status(400).json({ message: 'User already exists' });
     }
 
@@ -100,6 +125,10 @@ router.post('/register', async (req, res) => {
     });
 
     await user.save();
+    console.log('User created successfully:', {
+      id: user._id,
+      email: user.email
+    });
 
     // Generate token
     const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, {
@@ -119,7 +148,10 @@ router.post('/register', async (req, res) => {
     });
   } catch (error) {
     console.error('Registration error:', error);
-    res.status(500).json({ message: 'Server error' });
+    res.status(500).json({ 
+      message: 'Server error',
+      details: process.env.NODE_ENV === 'development' ? error.message : undefined
+    });
   }
 });
 
