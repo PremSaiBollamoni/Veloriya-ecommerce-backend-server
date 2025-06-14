@@ -119,17 +119,29 @@ router.post('/register', async (req, res) => {
 router.post('/login', async (req, res) => {
   try {
     const { email, password } = req.body;
+    
+    // Log request body for debugging
+    console.log('Login attempt:', { email: email || 'missing', hasPassword: !!password });
+
+    // Validate input
+    if (!email || !password) {
+      console.log('Missing credentials:', { email: !!email, password: !!password });
+      return res.status(400).json({ message: 'Email and password are required' });
+    }
+
     const normalizedEmail = email.toLowerCase();
 
     // Check if user exists
     const user = await User.findOne({ email: normalizedEmail });
     if (!user) {
+      console.log('User not found:', normalizedEmail);
       return res.status(400).json({ message: 'Invalid credentials' });
     }
 
     // Check password
     const isMatch = await user.comparePassword(password);
     if (!isMatch) {
+      console.log('Invalid password for user:', normalizedEmail);
       return res.status(400).json({ message: 'Invalid credentials' });
     }
 
@@ -150,7 +162,8 @@ router.post('/login', async (req, res) => {
       }
     });
   } catch (error) {
-    res.status(500).json({ message: 'Server error' });
+    console.error('Login error:', error);
+    res.status(500).json({ message: 'Server error', details: error.message });
   }
 });
 
