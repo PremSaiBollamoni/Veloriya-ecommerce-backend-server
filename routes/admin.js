@@ -16,7 +16,7 @@ router.get('/stats', adminAuth, async (req, res) => {
     const orders = await Order.find() || [];
     const totalOrders = orders.length;
     const revenue = orders.reduce((sum, order) => {
-      const orderTotal = order.total || 0;
+      const orderTotal = order.totalAmount || 0;
       return sum + orderTotal;
     }, 0);
     
