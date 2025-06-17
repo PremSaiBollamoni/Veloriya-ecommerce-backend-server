@@ -15,19 +15,25 @@ router.get('/stats', adminAuth, async (req, res) => {
     // Get total orders and revenue
     const orders = await Order.find() || [];
     const totalOrders = orders.length;
-    const totalRevenue = orders.reduce((sum, order) => {
+    const revenue = orders.reduce((sum, order) => {
       const orderTotal = order.total || 0;
       return sum + orderTotal;
     }, 0);
     
-    // Get low stock products (less than 10 items)
-    const lowStockProducts = await Product.countDocuments({ quantity: { $lt: 10 } }) || 0;
+    // Get total categories
+    const totalCategories = await Category.countDocuments() || 0;
+    
+    // Get recent orders
+    const recentOrders = await Order.find()
+      .sort({ createdAt: -1 })
+      .limit(5);
 
     res.json({
       totalProducts,
       totalOrders,
-      totalRevenue,
-      lowStockProducts
+      revenue,
+      totalCategories,
+      recentOrders
     });
   } catch (error) {
     console.error('Error fetching admin stats:', error);
