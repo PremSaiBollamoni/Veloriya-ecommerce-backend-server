@@ -22,6 +22,96 @@ router.get('/stats', adminAuth, async (req, res) => {
     
     // Get total categories
     const totalCategories = await Category.countDocuments() || 0;
+
+    // Get revenue data (last 6 months)
+    const sixMonthsAgo = new Date();
+    sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+    
+    const revenueData = await Order.aggregate([
+      {
+        $match: {
+          createdAt: { $gte: sixMonthsAgo }
+        }
+      },
+      {
+        $group: {
+          _id: {
+            month: { $month: "$createdAt" },
+            year: { $year: "$createdAt" }
+          },
+          revenue: { $sum: "$totalAmount" }
+        }
+      },
+      {
+        $sort: { "_id.year": 1, "_id.month": 1 }
+      }
+    ]);
+
+    // Transform revenue data
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const formattedRevenueData = revenueData.map(item => ({
+      date: months[item._id.month - 1],
+      revenue: item.revenue
+    }));
+
+    // Get orders by category
+    const categoryData = await Order.aggregate([
+      {
+        $unwind: "$items"
+      },
+      {
+        $lookup: {
+          from: "products",
+          localField: "items.product",
+          foreignField: "_id",
+          as: "product"
+        }
+      },
+      {
+        $unwind: "$product"
+      },
+      {
+        $lookup: {
+          from: "categories",
+          localField: "product.category",
+          foreignField: "_id",
+          as: "category"
+        }
+      },
+      {
+        $unwind: "$category"
+      },
+      {
+        $group: {
+          _id: "$category.name",
+          orders: { $sum: 1 }
+        }
+      },
+      {
+        $project: {
+          name: "$_id",
+          orders: 1,
+          _id: 0
+        }
+      }
+    ]);
+
+    // Get order status distribution
+    const orderStatusData = await Order.aggregate([
+      {
+        $group: {
+          _id: "$status",
+          count: { $sum: 1 }
+        }
+      },
+      {
+        $project: {
+          status: "$_id",
+          count: 1,
+          _id: 0
+        }
+      }
+    ]);
     
     // Get recent orders
     const recentOrders = await Order.find()
@@ -33,7 +123,10 @@ router.get('/stats', adminAuth, async (req, res) => {
       totalOrders,
       revenue,
       totalCategories,
-      recentOrders
+      recentOrders,
+      revenueData: formattedRevenueData,
+      categoryData,
+      orderStatusData
     });
   } catch (error) {
     console.error('Error fetching admin stats:', error);
